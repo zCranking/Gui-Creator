@@ -42,6 +42,6 @@ class CreateElements():
 
 CreateElements = CreateElements()
 Button1 = Button(root, text="Create Element", command = CreateElements.choose)
-Button1.place(relx=0.5, rely=0.07, anchor=CENTER)
+Button1.place(relx=0.5, rely=0.08, anchor=CENTER)
 
 root.mainloop()
